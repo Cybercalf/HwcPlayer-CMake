@@ -1,0 +1,15 @@
+# 让指定文件夹下的头文件能被这个文件夹下的程序找到
+include_directories(${PROJECT_SOURCE_DIR}/File)
+include_directories(${PROJECT_SOURCE_DIR}/MainPage)
+
+# 让生成的二进制可执行文件放到使用cmake的目录下的bin文件夹中
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+# 给该目录下的所有源文件起一个别名
+aux_source_directory(./ DIR_SRCS)
+# 将该目录下的所有源文件在生成二进制可执行文件时被使用
+add_executable(main ${DIR_SRCS})
+
+# 将用到的链接库game添加进来
+# target_link_libraries(main game)
+
+target_compile_options(main PRIVATE -fexec-charset=GBK)
