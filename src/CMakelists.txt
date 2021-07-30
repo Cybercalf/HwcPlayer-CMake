@@ -10,6 +10,7 @@ aux_source_directory(./ DIR_SRCS)
 add_executable(main ${DIR_SRCS})
 
 # 将用到的链接库game添加进来
-# target_link_libraries(main game)
+target_link_libraries(main File)
+target_link_libraries(main MainPage)
 
 target_compile_options(main PRIVATE -fexec-charset=GBK)

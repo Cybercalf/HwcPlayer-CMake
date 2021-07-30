@@ -1,6 +1,6 @@
 ﻿// TextColor.h：存储有关控制台文本颜色操作的函数和相关参数
 #pragma once
-#include "Glue.h"
+#include "..\\src\\Glue.h"
 /*
 基本文本属性
 FOREGROUND_BLUE 蓝色

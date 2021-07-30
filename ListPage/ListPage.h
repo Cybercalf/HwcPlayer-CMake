@@ -1,7 +1,7 @@
 ﻿// PlaylistPage.h: 播放列表页面。
 // #include "File.h"
-#include "Glue.h"
-#include "List.h"
+#include "..\\src\\Glue.h"
+#include "..\\List\\List.h"
 
 extern MediaNodePtr g_headPtr;
 

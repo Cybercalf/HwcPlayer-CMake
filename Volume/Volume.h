@@ -1,7 +1,7 @@
 ﻿// Volume.h：与系统音量和播放器音量有关的基本操作函数
 #pragma once
-#include "Glue.h"
-#include "Media.h"
+#include "..\\src\\Glue.h"
+#include "..\\Media\\Media.h"
 
 // 设置系统音量
 // 参数：

@@ -2,7 +2,7 @@
 #pragma once
 #ifndef LIST_H
 #define LIST_H
-#include "Glue.h"
+#include "..\\src\\Glue.h"
 
 typedef struct
 {

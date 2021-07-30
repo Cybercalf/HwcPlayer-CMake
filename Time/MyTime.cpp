@@ -1,4 +1,4 @@
-﻿#include "MyTime.h"
+﻿#include "Time.h"
 #pragma warning(disable : 4996)
 
 time_t timeParemeter; // 处理当前时间需要用到的参数

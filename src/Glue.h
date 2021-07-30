@@ -10,7 +10,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
-#include <ctime>
+#include <time.h>
 #include <endpointvolume.h>
 #include <fstream>
 #include <io.h>
@@ -33,5 +33,7 @@
 
 #define NAME_LENGTH 200
 #define PATH_LENGTH 500
+
+using namespace std;
 
 #endif

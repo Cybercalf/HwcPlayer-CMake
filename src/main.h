@@ -1,4 +1,4 @@
 ﻿#pragma once
 
-#include "File.h"
-#include "MainPage.h"
+#include "..\\File\\File.h"
+#include "..\\MainPage\\MainPage.h"

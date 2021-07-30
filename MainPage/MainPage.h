@@ -1,9 +1,9 @@
 ﻿// MainMenu.h: 首页（主菜单）页面
 // #include "File.h"
-#include "Glue.h"
-#include "ListPage.h"
-#include "PlayerPage.h"
-#include "Time.h"
+#include "..\\src\\Glue.h"
+#include "..\\ListPage\\ListPage.h"
+#include "..\\PlayerPage\\PlayerPage.h"
+#include "..\\Time\\MyTime.h"
 
 // 显示首页，同时承担交互等功能，可以被其他模块调用
 // 用户敲击相应的键盘后，就跳转到相应的页面，可跳转的页面有：

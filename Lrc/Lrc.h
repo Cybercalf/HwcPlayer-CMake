@@ -1,6 +1,6 @@
 ﻿// Lrc.h: 处理有关歌词的函数和相关参数
 #pragma once
-#include "Glue.h"
+#include "..\\src\\Glue.h"
 
 // 一句歌词
 typedef struct lrc

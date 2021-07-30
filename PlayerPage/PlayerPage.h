@@ -1,13 +1,13 @@
 ﻿// MediaPlayerPage.h: 播放器页面
 #pragma once
 
-#include "Glue.h"
-#include "List.h"
-#include "ListPage.h"
-#include "Media.h"
-#include "Volume.h"
-#include "Lrc.h"
-#include "TextColor.h"
+#include "..\\src\\Glue.h"
+#include "..\\\List\\List.h"
+#include "..\\ListPage\\ListPage.h"
+#include "..\\Media\\Media.h"
+#include "..\\Volume\\Volume.h"
+#include "..\\Lrc\\Lrc.h"
+#include "..\\TextColor\\TextColor.h"
 
 // 展示播放器页面，同时承担页面交互
 // 交互功能：

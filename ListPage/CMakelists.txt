@@ -8,6 +8,6 @@ aux_source_directory(./ DIR_LIB_SRCS)
 # 将该目录下的所有源文件在生成二进制链接库文件时被使用
 add_library(ListPage ${DIR_LIB_SRCS})
 # 将用到的链接库game添加进来
-# target_link_libraries(game check)
+target_link_libraries(ListPage List)
 
 target_compile_options(ListPage PRIVATE -fexec-charset=GBK)

@@ -1,8 +1,9 @@
 ﻿// Media.h：媒体交互基本函数
 #pragma once
-#include "Glue.h"
-#include "Lrc.h"
-#include "List.h"
+#include "..\\src\\Glue.h"
+#include "..\\Lrc\\Lrc.h"
+#include "..\\List\\List.h"
+#include "..\\ListPage\\ListPage.h"
 // #include "ListPage.h"
 
 // 代表三种不同的播放模式
