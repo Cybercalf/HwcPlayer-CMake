@@ -1,6 +1,6 @@
 ﻿// File.h: 与文件存储和读取有关的操作函数
 #pragma once
-#include "Glue.h"
+#include "..\\src\\Glue.h"
 #include "..\\List\\List.h"
 // 存储播放列表的文件名
 #define LIST_FILE_NAME "Playlist.dat"

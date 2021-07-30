@@ -4,7 +4,6 @@
 #include "..\\Lrc\\Lrc.h"
 #include "..\\List\\List.h"
 #include "..\\ListPage\\ListPage.h"
-// #include "ListPage.h"
 
 // 代表三种不同的播放模式
 enum PLAY_STATUS
