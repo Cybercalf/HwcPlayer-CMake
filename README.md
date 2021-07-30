@@ -1,7 +1,19 @@
 # HwcPlayer-CMake
 四川大学2021暑期实训项目-音乐播放器（工程结构测试版）
 
-本repo为另一个项目-HwcPlayer(https://github.com/Cybercalf/HwcPlayer)的测试版本，旨在测试可否将项目从VS项目迁移到CMake，整个工作由原项目开发人员中的Cybercalf全权负责
+本repo为另一个项目-HwcPlayer (`https://github.com/Cybercalf/HwcPlayer`) 的测试版本，旨在测试可否将项目从VS项目迁移到CMake
+
+整个工作由原项目开发人员中的Cybercalf全权负责
+
+## 相对于原项目的修改
+
+1. 去除对冗余头文件的引用
+2. 更改时间处理模块的源文件名称已解决命名冲突问题
+
+## 注意事项
+
+1. 编译器请使用`msvc-x86`，使用64位会失败
+2. 编译器请勿使用`gcc`
 
 以下为原项目的README.md中的内容
 
