@@ -12,7 +12,7 @@ add_subdirectory(MainPage)
 add_subdirectory(Media)
 add_subdirectory(PlayerPage)
 add_subdirectory(TextColor)
-add_subdirectory(Time)
+add_subdirectory(MyTime)
 add_subdirectory(Volume)
 
 # 预处理器选项
