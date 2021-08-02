@@ -2,7 +2,7 @@
 cmake_minimum_required (VERSION 3.8)
 #确定项目的名称
 project(HwcPlayer-CMake)
-#将子文件夹src, check, game添加到工程中来
+#将子文件夹添加到工程中来
 add_subdirectory(src)
 add_subdirectory(File)
 add_subdirectory(List)
